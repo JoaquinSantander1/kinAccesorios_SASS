@@ -1,0 +1,26 @@
+@keyframes tituloPrincipal {
+    from {
+      transform: translate(-200px);
+      opacity: 0;
+      font-size: 100%;
+    }
+  
+    to {
+      transform: translate(center);
+      opacity: 1;
+      font-size: 400%;
+    }
+  
+  }
+@keyframes imagenlogo {
+    from {
+        transform: translate(-300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(center);
+        opacity: 1;
+    }
+
+}
