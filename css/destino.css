@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes tituloPrincipal {
   from {
     transform: translate(-200px);
@@ -31,8 +32,32 @@ main {
   font-size: 18px;
   color: white;
   background-image: linear-gradient(135deg, #00b712 0%, #26977f 74%); }
+  main article {
+    margin: 10px 0px 20px;
+    font-size: 24px;
+    font-weight: bold; }
   main h2 {
     padding-top: 12px; }
+
+.imagenIndex1 {
+  width: 70%;
+  height: 55%; }
+
+.imagenIndex2 {
+  width: 70%;
+  height: 55%; }
+
+.textoContacto-instagram {
+  background-color: #df5edf;
+  border: black 3px;
+  font-size: 20px;
+  margin: 0% 40% 3% 40%; }
+
+.textoContacto-whatsapp {
+  background-color: #35c222;
+  border: black 3px;
+  font-size: 20px;
+  margin: 0% 40% 3% 40%; }
 
 * {
   margin: 0px;
@@ -67,7 +92,11 @@ nav {
   font-family: "caviar";
   font-weight: bold;
   font-size: 135%;
-  text-align: center; }
+  text-align: center;
+  /* Pagina "¿Quienes somos?" */
+  /* Pagina "Contacto" */ }
+  nav .navIndex {
+    margin: 6%; }
   nav .tituloQS {
     font-size: 150%;
     padding-left: 41%;
@@ -78,6 +107,16 @@ nav {
     padding: 4px;
     color: black;
     background-color: white; }
+  nav .menuC {
+    margin-left: 40%;
+    padding: 4px;
+    color: black;
+    background-color: white; }
+  nav .tituloC {
+    font-size: 150%;
+    padding-left: 44%;
+    text-align: center;
+    margin-top: 30%; }
 
 li {
   text-align: end;

@@ -1,7 +1,11 @@
 @import "animacion";
 @import "fuentes";
 @import "menu";
-$colorDegrade: 135deg, #00b712 0%, #26977f 74%; 
+@import "extend-mixxins";
+@import "contactomaps";
+$colorDegrade: 135deg,
+#00b712 0%,
+#26977f 74%;
 
 * {
     margin: 0px;
@@ -44,6 +48,12 @@ nav {
     font-size: 135%;
     text-align: center;
 
+    .navIndex {
+        margin: 6%;
+    }
+
+    /* Pagina "¿Quienes somos?" */
+
     .tituloQS {
         font-size: 150%;
         padding-left: 41%;
@@ -56,6 +66,21 @@ nav {
         padding: 4px;
         color: black;
         background-color: white;
+    }
+
+    /* Pagina "Contacto" */
+    .menuC {
+        margin-left: 40%;
+        padding: 4px;
+        color: black;
+        background-color: white;
+    }
+
+    .tituloC {
+        font-size: 150%;
+        padding-left: 44%;
+        text-align: center;
+        margin-top: 30%;
     }
 }
 
@@ -78,8 +103,8 @@ a:hover {
 
 article {
     margin: 10px 0px 20px;
-  }
-  
+}
+
 footer {
     background-color: black;
     color: white;

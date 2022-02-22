@@ -1,0 +1,10 @@
+@mixin tamañoImagenIndex($anchura, $altura) {
+    width: $anchura;
+    height: $altura;
+}
+.imagenIndex1{
+    @include tamañoImagenIndex(70%, 55%)
+}
+.imagenIndex2{
+    @include tamañoImagenIndex(70%, 55%)
+}

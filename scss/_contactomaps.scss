@@ -1,0 +1,13 @@
+$redes: (
+    instagram: rgb(223, 94, 223),
+    whatsapp: rgb(53, 194, 34),
+);
+
+@each $clave, $valor in $redes{
+    .textoContacto-#{$clave} {
+        background-color: $valor;
+        border: black 3px;
+        font-size: 20px;
+        margin:0% 40% 3% 40%;
+    }
+}
